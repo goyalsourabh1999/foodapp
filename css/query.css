@@ -1,0 +1,56 @@
+
+/* large tablets */
+@media only screen and (max-width:1200px){
+    body{
+        background-color: gray;
+    }
+    
+}
+/* tablets */
+@media only screen and (max-width:900px){
+    body{
+        background-color: blue;
+    }
+    
+    
+}
+
+/* mobile phone */
+@media only screen and (max-width:600px){
+    body{
+        background-color: red;
+       
+        
+    }
+    
+    .navigation{
+        display: inline;
+    }
+    main{
+        background-repeat: no-repeat;
+        height:auto;
+    }
+    .container{
+        display: block;
+    }
+    .card{
+        text-align: justify;
+    }
+    .sec{
+        display: block;
+    }
+    .cities{
+      display: block;  
+    }
+    .ratecard{
+        display:block;
+    }
+    .menubar{
+        display: inline;
+        color: white;
+        margin-left: 75%;
+    }
+    .active{
+        display: none;
+    }
+}

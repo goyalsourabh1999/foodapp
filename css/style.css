@@ -1,0 +1,416 @@
+* {
+    margin: 0%;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+ul {
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+main,.back{
+    background-image: linear-gradient(rgba(0,0,0,0.636),rgba(32, 25, 25, 0.645)),url(../img/home1.jpg);
+    height: 100vh;
+    background-size: 100%;
+    background-attachment: fixed;
+}
+
+header {
+    font-size: 0.5;
+    display: flex;
+    justify-content: end;
+    top: 2rem;
+    padding-top: 2rem;
+}
+.menubar{
+    display: none;
+}
+.navigation {
+    display: flex;
+    color: white;
+    margin-right: 1.2rem;
+}
+
+.nav-bar-link {
+    margin-right: 1.5rem;
+}
+
+.nav-anchor:hover {
+    
+    border-bottom: 0.1rem solid green;
+}
+
+.article {
+    color: white;
+    font-size: 2.5rem;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 100rem;
+    padding-top: 10rem;
+    padding-left: 7rem;
+}
+
+.im-hungry {
+    background-color: #4CAF50;
+    /* Green */
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border-radius: 1.5rem;
+    transition: transform 0.5s;
+}
+
+.show-me-more {
+    /* background-color: #4CAF50; Green */
+    background-color: transparent;
+    border-radius: 1.5rem;
+    border-width: 0.1rem;
+    border: none;
+    color: white;
+    text-align: center;
+    padding: 0.3rem 2rem;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 15px;
+    border: 0.2rem solid #4CAF50;
+    transition: transform 0.5s;
+}
+
+.button {
+    margin-top: 0.2rem;
+    margin-left: 7rem;
+}
+
+.im-hungry:hover {
+    transform: scale(1.1);
+}
+
+.show-me-more:hover {
+    transform: scale(1.1);
+}
+
+.get {
+    font-size: 1.4rem;
+    margin: 1rem 20rem;
+}
+
+.line {
+  
+    border-bottom: 0.2rem solid green;
+    margin: 0 35rem;
+}
+
+.content {
+    color: gray;
+    padding-top:1rem ;
+    padding-left: 20rem;
+    padding-right:20rem;
+}
+.container{
+    margin-left: 2rem;
+    display: flex;
+
+}
+img{
+    height: 14vh;
+    width: 10vw;
+    padding-bottom: 2rem;
+    justify-content: center;
+    display: block;
+}
+
+.card{
+   padding-top: 2rem;
+   padding-left: 1rem;
+    padding-right: 2rem;
+    justify-content: space-around;
+    align-items: center;
+   
+}
+.span{
+    color: gray;
+    font-size: 1.2rem;
+    padding-bottom: 1.2rem;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+i{
+    margin: 0 5.5rem;
+    font-size: 2.7rem;
+    justify-content: center;
+
+    padding-bottom: 0.5rem;
+}
+.con{
+    text-align: end;
+}
+.how{
+    margin-left: 25rem;
+    font-size: 180%;
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+}
+.sec{
+    display: flex;
+}
+.phone{
+    height: 80vh;
+    width:20vw; 
+    margin-left: 7rem;
+    margin-right: 5rem; 
+    margin-top: 2rem;
+}
+.store{
+    margin-top: 3rem;   
+}
+.icon{
+    font-size: 150%;
+    display: inline-block;
+    border: 0.2rem solid green;
+    height: 3rem;
+    width: 3rem;
+    border-radius: 50%;
+    text-align: center; 
+    padding-top:0.5rem; 
+    float: left; 
+}
+.p{
+    display: flex;
+}
+.sticky{
+    background-color: white;
+    width: 100%;
+    padding-bottom: 1rem;
+    position: fixed;
+    text-align: left;
+    /* color: black; */
+}
+.sticky a{
+    color: black;
+}
+.no{
+    clear: both;
+    display: table;
+    font: 4rem;
+    margin:1.5rem 0;
+    margin-left:1.3rem;
+}
+.google{
+    margin-left: 15rem;
+    margin-top: 2rem;
+    display: flex;
+}
+.number{
+    margin-left: 3rem;
+    margin-top: 14rem;
+}
+.go{
+    margin-left: 2rem;
+}
+
+.we{
+text-align: center;
+font-size: 2rem;
+}
+.cities{
+    display:flex;
+    justify-content: center;
+    margin: 2rem 2rem;
+}
+
+.city{
+justify-content: center;
+margin: 0 1.5rem;
+}
+.india{
+    height: 25vh;
+    width: 20vw;  
+}
+
+.ind{
+    text-align: center;
+    margin-bottom: 0.6rem;
+}
+
+.p{
+    text-align: center;
+}
+.back{
+    color: white;
+  
+    height: 20rem;  
+}
+.custom{
+text-align: center;
+color: white;
+word-spacing: 1.1rem;
+font-size: 1.4rem;
+font-weight: 10rem;
+padding-top: 1.2rem;
+margin:0.5rem 0;
+}
+.review{
+display:flex;
+}
+
+.name{
+    color: white;
+}
+.coma{
+ padding-top: 1.2rem;
+ font-size: 1.3rem;
+}
+.speech{
+    justify-content: left;
+    padding: 0 1.2rem;
+    padding-bottom: 1.3rem;
+}
+.name{
+   
+    padding-left: 4rem;     
+}
+.happy{
+    padding-top: 2rem;
+    text-align: center;
+    font-size: 2rem;
+    letter-spacing: 0.1rem;
+}
+.form{
+margin-top: 2rem;
+}
+.form-group{
+    padding-left: 25rem;
+    }
+input{
+    align-items: center;
+}
+#name {
+
+    margin-left: 8rem;
+    margin-bottom: 0.7rem;
+    padding: 0.5rem 2rem;
+    padding-left: 1rem;
+
+}
+#lastname {
+
+    margin-left: 6.5rem;
+    margin-bottom: 0.7rem;
+    padding: 0.5rem 2rem;
+    padding-left: 1rem;
+}
+#email {
+
+    margin-left: 8.2rem;
+    margin-bottom: 0.7rem;
+    padding: 0.5rem 2rem;
+    padding-left: 1rem;
+}
+#find{
+    margin-left: 1.5rem;
+    margin-bottom: 0.7rem;
+    padding: 0.5rem 2rem;
+    padding-left: 1rem;
+}
+#newsletter{
+    margin-left: 5.5rem;
+    margin-bottom: 0.7rem;
+    
+}
+#comment{
+
+    margin-left: 4.6rem;
+    margin-bottom: 0.7rem;
+    padding: 1rem 2rem;
+    padding-left: 1rem;
+}
+#button{
+    margin-top: 1rem;
+    margin-left: 11rem;
+    padding: 0.5rem 1rem;
+    color: white;
+    background-color: rgb(45, 139, 45);
+    border-radius: 1rem;
+    margin-bottom: 3rem;
+}
+.lab label{
+    vertical-align: 7rem;
+}
+.rate{
+    padding-bottom: 2rem;
+    background-color: rgb(250, 248, 245);
+}
+.start {
+    text-align: center;
+    font-size: 1.8rem;
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+    word-spacing: 0.5rem;
+}
+.line{
+
+}
+.ratecard {
+
+    display: flex;
+    margin: 2rem;
+    
+}
+.tick{
+    font-size: 1.2rem;
+    margin: 0rem 0rem;
+    padding-right: 1rem;
+    color: green;
+}
+.ratecard1 {
+
+    padding: 2rem;
+    background-color: white;
+    border-radius: 2rem;
+    margin: 0rem 3rem;
+    transition:  transform 0.3s;
+}
+.ratecard1:hover{
+    transform: scale(1.02);
+
+}
+.ratename{
+    color: gray;
+    margin-bottom: 1rem;
+}
+.price{
+    font-size: 2rem;
+    color: green;
+    display: flex;
+    padding-bottom: 0.7rem;
+
+}
+.grayline{
+    margin: 0.5rem 0.5rem;
+    border: 0.03rem solid gray;
+}
+.permonth{
+    font-size: 0.7rem;
+}
+.bookbutton{
+    margin-top: 1rem;
+    height: 2rem;
+    width: 6rem;
+   border: 0.2rem solid green;
+    margin-left: 6rem;
+    border-radius: 2rem;
+    padding-top: 0.2rem;
+    text-align: center;
+}
+
+
+
